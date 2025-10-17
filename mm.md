@@ -13,12 +13,13 @@ int main() {
 	}
 	for (int j = 0; j < n; j++) {
 		cout<<"这是斐波那契数列“ << An[j] << " " ;
-        cout<<"这是第n项<<An[n-1]<<endl;
+       
 	}
+	 cout<<"这是第n项<<An[n-1]<<endl;
 	system("pause");
 	return0
 	}
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzQ5MzQ2NCwxMzUyMTY0NTk1XX0=
+eyJoaXN0b3J5IjpbODYyODQ1Mjc2LDEzNTIxNjQ1OTVdfQ==
 -->
