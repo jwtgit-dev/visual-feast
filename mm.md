@@ -25,10 +25,11 @@ using namespace std;
 	
 	system("pause");
 	return 0;}
+	
 
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzA2NjY2Nyw4NjI4NDUyNzYsMTM1Mj
-E2NDU5NV19
+eyJoaXN0b3J5IjpbMzY2Mjc3Njk3LDE0MjMwNjY2NjcsODYyOD
+Q1Mjc2LDEzNTIxNjQ1OTVdfQ==
 -->
