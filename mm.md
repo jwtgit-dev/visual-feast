@@ -29,11 +29,46 @@ using namespace std;
 	
 ```
 * 第二项
-* 
+```c++
+#include<iostream>
+using namespace std;
+#include<ctime>
+const int N = 100;
+int main() {
+	cout << "请输入n的值:" << endl;
+	srand((unsigned int)time(NULL));
+	int n = 0;
+	cin >> n;
+	
+	int arr[N] = { 0 };
+	for (int i = 0; i < n; i++) {
+	    arr[i] = rand() % 100;
+		
+
+	
+	}
+	for (int f = 0; f < n - 1; f++) {
+		int p = f;
+		for (int j = f + 1; j < n; j++) {
+			if (arr[p] > arr[j]) {
+				p = j;
+			}
+		}
+			int t = arr[f];
+			arr[f] = arr[p];
+			arr[p] = t;
+			cout << arr[p] << " ";
+		
+	}
+
+	
+	system("pause");
+	return 0;
+}
 
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4NzI1MjY3LDM2NjI3NzY5NywxNDIzMD
+eyJoaXN0b3J5IjpbNzI0MDk2OTc5LDM2NjI3NzY5NywxNDIzMD
 Y2NjY3LDg2Mjg0NTI3NiwxMzUyMTY0NTk1XX0=
 -->
