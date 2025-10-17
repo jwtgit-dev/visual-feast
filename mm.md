@@ -16,9 +16,9 @@ int main() {
 
 	}
 	system("pause");
-	return 0;
-}
-
+	return0
+	}
+	```````````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjE2NDU5NV19
+eyJoaXN0b3J5IjpbMTAzNjAzNTc3MiwxMzUyMTY0NTk1XX0=
 -->
