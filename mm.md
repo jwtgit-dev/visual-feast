@@ -1,4 +1,5 @@
 # 第一次作业
+* 第一项
 ```c++
 #include<iostream>
 using namespace std;
@@ -27,10 +28,12 @@ using namespace std;
 	return 0;}
 	
 ```
+* 第二项
+* 
 
 
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMTIzMDgxLDM2NjI3NzY5NywxNDIzMD
+eyJoaXN0b3J5IjpbNjM4NzI1MjY3LDM2NjI3NzY5NywxNDIzMD
 Y2NjY3LDg2Mjg0NTI3NiwxMzUyMTY0NTk1XX0=
 -->
