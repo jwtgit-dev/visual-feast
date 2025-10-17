@@ -12,13 +12,13 @@ int main() {
 		An[i] = An[i - 1] + An[i - 2];
 	}
 	for (int j = 0; j < n; j++) {
-		cout<" << An[j] << " " ;
-
+		cout<<"这是斐波那契数列“ << An[j] << " " ;
+        cout<<
 	}
 	system("pause");
 	return0
 	}
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDY3OTAyNCwxMzUyMTY0NTk1XX0=
+eyJoaXN0b3J5IjpbMTg5NDExMTA5MCwxMzUyMTY0NTk1XX0=
 -->
