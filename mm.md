@@ -71,9 +71,43 @@ int main() {
 ````
 2. 冒泡排序
 ```c++
+#include<iostream>
+using namespace std;
+#include<ctime>
+int main() {
+	int n = 0;
+	cout << "请您输入n的值(n<99)" << endl;
+	cin >>n;
+	cout << "未排序之前的顺序:";
+	int arr[100] = { 0 };
+	srand((unsigned int)time(NULL));
+	for (int i = 0; i < n; i++) {//for循环给数组赋值
+		arr[i] = rand() % 100;
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+	cout << "这是排序过的顺序:";
+	for (int j = 0; j < n; j++) {
+		for (int f = 0; f<n - j - 1; f++) {
+			if (arr[f] >arr[f + 1]) {
+				int temp = arr[f];
+				arr[f] = arr[f + 1];
+				arr[f+ 1] = temp;
+			}
+		}
+	}
+	for (int i = 0; i < n; i++) {
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+	system("pause");
+	return 0;
+}
 
 
-
+```
+本小登太菜了只能写成这样，还借助了豆包检查错误
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjIyNjc5NSwtMTA1MTA5NzQ3NV19
+eyJoaXN0b3J5IjpbLTEzNzg4MzkxMzAsMTI0NjIyNjc5NSwtMT
+A1MTA5NzQ3NV19
 -->
