@@ -1,5 +1,5 @@
 # 第一次作业
-* 第一项
+* 第一项:斐波那契额数列（太菜了只会这样写，其他功能实现不了）
 ```c++
 #include<iostream>
 using namespace std;
@@ -28,7 +28,7 @@ using namespace std;
 	return 0;}
 	
 ```
-* 第二项
+* 第二项:排序
 ```c++
 #include<iostream>
 using namespace std;
@@ -41,13 +41,14 @@ int main() {
 	cin >> n;
 	
 	int arr[N] = { 0 };
-	for (int i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++) {//进行赋值
 	    arr[i] = rand() % 100;
-		
-
+		cout  << arr[i] << " ";
 	
 	}
-	for (int f = 0; f < n - 1; f++) {
+	cout <<"这是之前的数列" << endl;
+
+	for (int f = 0; f < n ; f++) {
 		int p = f;
 		for (int j = f + 1; j < n; j++) {
 			if (arr[p] > arr[j]) {
@@ -57,17 +58,17 @@ int main() {
 			int t = arr[f];
 			arr[f] = arr[p];
 			arr[p] = t;
-			cout << arr[p] << " ";
+			cout << arr[f] << " ";
 		
 	}
+	cout << "这是之后的数列" << endl;
 
 	
 	system("pause");
 	return 0;
 }
 
-
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0MDk2OTc5XX0=
+eyJoaXN0b3J5IjpbMTEyMjY3NTgyNiw3MjQwOTY5NzldfQ==
 -->
