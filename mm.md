@@ -70,8 +70,9 @@ int main() {
 }
 ````
 2. 冒泡排序
-```
+```c++
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTE3NTQ5MCw3MjQwOTY5NzldfQ==
+eyJoaXN0b3J5IjpbLTEwNTEwOTc0NzUsNzI0MDk2OTc5XX0=
 -->
