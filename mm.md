@@ -108,7 +108,7 @@ int main() {
 
 ```
 本小登太菜了只能写成这样，还借助了豆包检查错误和接受了一位学长的济助后面的拔高题太简单了就不做了哈  ：（
->q其实是我试了一下发现用switch写出来的语句不知道咋运行不了，问豆包也没搞好，mi'zhan'yi
+>其实是我试了一下发现用switch写出来的语句不知道咋运行不了，问豆包也没搞好，奋战一个小时之后放弃了
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODMxNDM1MCw2MzU5MDYwMTRdfQ==
+eyJoaXN0b3J5IjpbLTMwNDgyNjU2MF19
 -->
