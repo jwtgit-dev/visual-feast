@@ -29,6 +29,7 @@ using namespace std;
 	
 ```
 * 第二项:排序
+1. 选择排序
 ```c++
 #include<iostream>
 using namespace std;
@@ -67,8 +68,10 @@ int main() {
 	system("pause");
 	return 0;
 }
+````
+2. 冒泡排序
+```
 
-	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjY3NTgyNiw3MjQwOTY5NzldfQ==
+eyJoaXN0b3J5IjpbLTQxNTE3NTQ5MCw3MjQwOTY5NzldfQ==
 -->
